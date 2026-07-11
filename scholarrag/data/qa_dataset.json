@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the difference between ridge and lasso regression?",
+    "source_doc": "regularisation.md",
+    "answer_keywords": ["L2", "L1", "zero"]
+  },
+  {
+    "question": "Why can random cross-validation splits not be used for time series?",
+    "source_doc": "cross_validation.md",
+    "answer_keywords": ["future", "leak", "walk-forward"]
+  },
+  {
+    "question": "What mechanism lets transformers capture long-range dependencies?",
+    "source_doc": "transformers.md",
+    "answer_keywords": ["self-attention", "attention"]
+  },
+  {
+    "question": "How does an autoencoder detect anomalies?",
+    "source_doc": "anomaly_detection.md",
+    "answer_keywords": ["reconstruction", "error", "normal"]
+  },
+  {
+    "question": "How does gradient boosting build its ensemble?",
+    "source_doc": "gradient_boosting.md",
+    "answer_keywords": ["sequential", "residual", "trees"]
+  },
+  {
+    "question": "What is the difference between covariate drift and concept drift?",
+    "source_doc": "data_drift.md",
+    "answer_keywords": ["input distribution", "relationship", "target"]
+  },
+  {
+    "question": "How is the regularisation strength usually chosen?",
+    "source_doc": "regularisation.md",
+    "answer_keywords": ["cross-validation", "hyperparameter"]
+  },
+  {
+    "question": "Which statistical tests are used to detect data drift?",
+    "source_doc": "data_drift.md",
+    "answer_keywords": ["population stability index", "Kolmogorov-Smirnov"]
+  }
+]
